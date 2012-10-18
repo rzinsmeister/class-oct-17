@@ -1,0 +1,20 @@
+@import 'variables';
+
+body {
+  color: $primary;
+  background-color: $neutral;
+}
+
+
+a {
+  color: $accent;
+  text-decoration: none;
+  &:hover {
+  }
+  &:focus {
+  }
+  &:active {
+  background-color: $accent;
+  color: $neutral;
+  }
+}

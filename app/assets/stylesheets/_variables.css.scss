@@ -1,0 +1,27 @@
+// Fonts 
+
+$serifFont: Georgia, "Times New Roman", Times, Roman, serif;
+$sansFont: Helvetica, Arial, sans-serif;
+$monoFont: Monaco, "Courier New", Courier, monospace;
+
+// Colors
+
+$darkBlue: rgb(86,119,141);
+$lightBlue: rgb(145,196,230);
+$slateGray: rgb(88,93,97);
+$aquaGreen: rgb(152,206,162);
+$darkGray: rgb(20,23,20);
+
+$primary: $darkBlue;
+$secondary: $lightBlue;
+$tertiary: $slateGray;
+$neutral: $aquaGreen;
+$accent: $darkGray;
+
+
+$primaryLight: lighten($primary, 10%);
+$secondaryLight: lighten($secondary, 10%);
+$tertiaryLight: lighten($tertiary, 10%);
+$neutralLight: lighten($neutral, 10%);
+$accentLight: lighten($accent, 10%);
+
