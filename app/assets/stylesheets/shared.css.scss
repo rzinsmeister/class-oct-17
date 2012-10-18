@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 body {
   color: $primary;
@@ -9,6 +10,9 @@ body {
 a {
   color: $accent;
   text-decoration: none;
+  background-color: $tertiary;
+  @include rounded_corners(25px);
+  padding: 5px;
   &:hover {
   }
   &:focus {
@@ -18,3 +22,14 @@ a {
   color: $neutral;
   }
 }
+
+nav {
+  ul {
+    li {
+       a{ 
+
+      }
+    }
+   }
+}
+
